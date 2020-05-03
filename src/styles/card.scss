@@ -61,7 +61,7 @@
     }
 }
 .hide{
-    animation: hide 3s  .5s forwards;
+    animation: hide 3s  2s forwards;
 }
 
 @keyframes hide{
@@ -69,3 +69,20 @@
     to{filter: opacity(0%);}
 }
 
+@media(max-width:575.98px){
+    .cards{
+        .card{
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+@media (min-width:576px) and (max-width: 991.98px) {
+    .cards{
+        .card{
+            width: 250px;
+            height: 250px;
+        }
+    }
+}
