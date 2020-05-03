@@ -5,8 +5,10 @@ import Cards from './cards'
 
 function checkCards(card1,card2){
     if (card1.id === card2.id) {
-        card1.classList.add("hide");
-        card2.classList.add("hide");
+        setTimeout(() => {
+            card1.classList.add("hide");
+            card2.classList.add("hide");
+        }, 1000);
     }else{
         setTimeout(() => {
             card1.style.transform = "rotateY(360deg)";
