@@ -1,12 +1,13 @@
 import React from 'react';
-import Game from './js/game'
+import {BrowserRouter} from 'react-router-dom';
+import Routes from './js/routes';
 
 function App() {
   return (
-    <div>
-      <h1 style={{textAlign:"center"}}>¡Feliz día!</h1>
-      <Game></Game>
-    </div>
+    <BrowserRouter>
+      <Routes></Routes>
+    </BrowserRouter>
+
     );
 }
 

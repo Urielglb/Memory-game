@@ -6,24 +6,9 @@ import fifthPhoto from '../../assets/imgs/garcia/5.png';
 import sixthPhoto from '../../assets/imgs/garcia/6.png';
 import seventhPhoto from '../../assets/imgs/garcia/7.png';
 
-
-function mixedImgs(imgs){
-    let usedNumbers = {};
-    let mixedImgs = [];
-    for (let i = 0; i < (imgs.length)*2; i++) {
-        let index = Math.floor(Math.random() * (imgs.length));
-        while (usedNumbers[index]===2) {
-              index = Math.floor(Math.random() * (imgs.length));
-        }
-        if(usedNumbers[index]){
-            usedNumbers[index] = 2;
-        }else{
-          usedNumbers[index] = 1;
-        }
-        mixedImgs.push(imgs[index]);
-    }
-    return mixedImgs
-}
+/**
+ * The imgs of the family
+ */
 
 let imgs =[
     {
@@ -55,7 +40,5 @@ let imgs =[
         "id": "seventh"
     },
 ]
-
-imgs = mixedImgs(imgs)
 
 export default imgs;
