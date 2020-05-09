@@ -6,9 +6,10 @@ import {
 import LogIn from './login';
 import Game from './game';
 import passwords from './passwords';
+import mixImgs from './mixImgs';
 import islas from './imgs/islas';
 import garcia from './imgs/garcia';
-import mixImgs from './mixImgs';
+
 
 /**
  * Routes of the app

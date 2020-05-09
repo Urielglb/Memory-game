@@ -39,14 +39,7 @@ body{
 
     }
 }
-.hide{
-    animation: hide 3s forwards;
-}
 
-@keyframes hide{
-    from{filter:opacity(100%);}
-    to{filter: opacity(0%);}
-}
 
 @media(max-width:575.98px){
     .cards{

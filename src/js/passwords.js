@@ -1,5 +1,5 @@
 /**
- * JSON of the passwords in the game, each password haves the link to one game 
+ * JSON of the passwords, each password haves the link to one game 
  */
 
 const passwords = {

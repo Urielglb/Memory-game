@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import '../styles/log-in.scss';
 
 /**
- * React Component that will recieve the password the user gives and check if it´s in the saved passwords, if it is it will render
+ * React Component that will recieve the password the user gives and check if it´s in the saved passwords, if it is, it will render
  * a Link component with a ref to the game associated with the password
  * @param {The props of the button} props 
  */
