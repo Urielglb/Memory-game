@@ -18,14 +18,15 @@
         border: black 1pt solid;
         border-radius: 5%;
         background-color: rgb(0, 149, 246);
+        -webkit-animation: show .8s forwards;
         animation: show .8s  forwards;
     }
 }
+@-webkit-keyframes show{
+    from{-webkit-filter: opacity(0);}
+    to{-webkit-filter: opacity(100%);}
+}
 @keyframes show{
-    from{
-        filter: opacity(0);
-    }
-    to{
-        filter: opacity(100%);
-    }
+    from{filter: opacity(0);}
+    to{filter: opacity(100%);}
 }

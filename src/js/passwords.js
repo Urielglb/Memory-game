@@ -3,7 +3,8 @@
  */
 
 const passwords = {
-    "-#zE6M":"/game/garcia"
+    "-#zE6M":"/game/garcia",
+    "9fKJ!V":"game/islas"
 };
 
 export default passwords;
