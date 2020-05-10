@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/card.scss'
 
 /**
- * React Component that will create the cards of the game and give them the look in the game 
+ * React Component that will recieve the imgs wanted for the game and create the cards 
  * @param {The props of the Cards} props 
  */
 const Cards = (props)=>{

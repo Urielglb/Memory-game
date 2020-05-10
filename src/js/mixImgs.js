@@ -1,5 +1,5 @@
 /**
- * Function that receives and array and returns an array with the imgs mixed and duplicated 
+ * Function that receives an array with the imgs for the game and returns an array with the imgs mixed and duplicated 
  * @param {The imgs in the game} imgs 
  */
 function mixImgs(imgs){
