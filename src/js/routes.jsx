@@ -8,6 +8,7 @@ import Game from './game';
 import passwords from './passwords';
 import mixImgs from './mixImgs';
 import islas from './imgs/islas';
+import garciaLuna from './imgs/garcia-luna';
 import garcia from './imgs/garcia';
 
 
@@ -23,6 +24,9 @@ return(
         </Route>
         <Route path="/game/islas">
             <Game imgs={mixImgs(islas)}></Game>
+        </Route>
+        <Route path="/game/garcia-luna">
+            <Game imgs={mixImgs(garciaLuna)}></Game>
         </Route>
         <Route path="/">
             <LogIn passwords={passwords}></LogIn>

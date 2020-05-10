@@ -1,10 +1,9 @@
-import firstPhoto from '../../assets/imgs/islas/1.jpeg';
-import secondPhoto from '../../assets/imgs/islas/2.jpg';
-import thirdPhoto from '../../assets/imgs/islas/3.jpeg';
-import fourthPhoto from '../../assets/imgs/islas/4.jpeg';
-import fifthPhoto from '../../assets/imgs/islas/5.jpeg';
-import sixthPhoto from '../../assets/imgs/islas/6.jpeg';
-
+import firstPhoto from '../../assets/imgs/garcia-luna/1.jpg';
+import secondPhoto from '../../assets/imgs/garcia-luna/2.png';
+import thirdPhoto from '../../assets/imgs/garcia-luna/3.png';
+import fourthPhoto from '../../assets/imgs/garcia-luna/4.png';
+import fifthPhoto from '../../assets/imgs/garcia-luna/5.jpeg';
+import sixthPhoto from '../../assets/imgs/garcia-luna/6.jpeg';
 
 /**
  * The imgs of the family
